@@ -893,11 +893,12 @@
 	    	//	statesData = jso;
 	    	d3.json('geo/Sudan_admin_2.geojson',function(jso){	
 	    	statesData = jso;
-			console.log(statesData);
+			// console.log(statesData);
 	    		//call the original data
 			//d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vSSxq5F32bBfiJAwWLcR9hNJtcWHHlqKArC8e3UVbCZXztzqFz156vaeqCcDSBDfLK4p0i007RUsIA1/pub?output=csv',
 			//d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTXgTZK1hZ2OkYOz-_fzK-E4vvmE_Ml4imggolZNOYFIKmb1w1xDENWFLTAwJMFrg/pub?gid=164815787&single=true&output=csv', 
-			d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTXgTZK1hZ2OkYOz-_fzK-E4vvmE_Ml4imggolZNOYFIKmb1w1xDENWFLTAwJMFrg/pub?gid=164815787&single=true&output=csv',
+			// d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTXgTZK1hZ2OkYOz-_fzK-E4vvmE_Ml4imggolZNOYFIKmb1w1xDENWFLTAwJMFrg/pub?gid=164815787&single=true&output=csv',
+				d3.csv('https://proxy.hxlstandard.org/api/data-preview.json?url=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F15KrlCUoMxiT458lpypDpK8KgHWos7i0fT7CvoguDCMk%2Fedit%23gid%3D1741983422&format=csv',
 				
 				function(data){
 		    		//set the data called to variable thedata
